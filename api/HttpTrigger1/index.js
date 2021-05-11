@@ -1,7 +1,8 @@
-const say = require('@withinrafael/custom-module')
+const custom_module = require('custom-module');
+const get_random_number = custom_module.cwrap('get_random_number', 'number', []);
 
 module.exports = async function (context, req) {
     context.res = {
-        body: say.hello()
+        body: get_random_number()
     };
 }
