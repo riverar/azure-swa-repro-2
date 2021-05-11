@@ -1,4 +1,4 @@
-const say = require('custom-module')
+const say = require('@withinrafael/custom-module')
 
 module.exports = async function (context, req) {
     context.res = {

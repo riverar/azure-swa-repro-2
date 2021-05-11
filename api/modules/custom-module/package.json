@@ -1,5 +1,5 @@
 {
-  "name": "custom-module",
+  "name": "@withinrafael/custom-module",
   "version": "0.0.1",
   "main": "dist/hello.js",
   "scripts": {
